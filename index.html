@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UIxSHUVO</title>
+    <link rel="icon" type="image/png" href="images/UIxSHUVO Favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link type="text/javascript" href="index.html">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="">
+                <img src="images/logo.png" alt="logo" height="100%" width="120px">
+            </a>
+        </div>
+        <nav>
+            <a href="">ABOUT</a>
+            <a href="">TOUR</a>
+            <a href="">PACKAGE</a>
+            <a href="">CONTACT</a>
+        </nav>
+        <div class="booktrip-btn">
+            <button type="button">Book Trip</button>
+        </div>
+    </header>
+
+    <section class="upfold">
+        <div class="slidershape">
+            <img src="images/sky.jpg" alt="sky" width="100%" height="100%">
+        </div>
+        <div class="flight">
+            <img src="images/airplane.png" alt="airplane" width="1150px">
+        </div>
+        <div class="carouselcontainer">
+            <div class="carouselnavigation">
+                <div class="circle" id="circle1" onclick="showSlide(1)">1</div>
+                <div class="line"></div>
+                <div class="circle" id="circle2" onclick="showSlide(2)">2</div>
+                <div class="line"></div>
+                <div class="circle" id="circle3" onclick="showSlide(3)">3</div>
+            </div>
+        <div class="carouselcontent">
+            <div class="carouselslide" id="slide1">
+            <p>ELEVATE YOUR TRAVEL JOURNEY</p>
+            <h1>Experience<br>The Magic Of<br>Flight!</h1>
+            <div class="carouselcontentbuttons">
+            <button class="tripbtn" type="button" title="">Book A Trip Now</button>
+            <button class="playbtn" type="button" title="">
+                <img class="playbtn-image" src="images/play-circle-fill.svg"alt="playbtn">
+            </button>
+            </div>
+        </div>
+
+        <div class="carouselslide" id="slide2">
+            <p>ADVENTURE AWAITS</p>
+            <h1>Embrace<br>The Thrill Of<br>The SKies!</h1>
+            <div class="carouselcontentbuttons">
+            <button class="tripbtn" type="button" title="">Book A Trip Now</button>
+            <button class="playbtn" type="button" title="">
+                <img class="playbtn-image" src="images/play-circle-fill.svg"alt="playbtn">
+            </button>
+            </div>
+        </div>
+
+        <div class="carouselslide" id="slide3">
+            <p>UNFORGETTABLE DESTINATIONS</p>
+            <h1>Fly Into Your<br>Beautiful<br>Dreams!</h1>
+            <div class="carouselcontentbuttons">
+            <button class="tripbtn" type="button" title="">Book A Trip Now</button>
+            <button class="playbtn" type="button" title="">
+                <img class="playbtn-image" src="images/play-circle-fill.svg"alt="playbtn">
+            </button>
+            </div>
+        </div>
+        <div class="slidershape2">
+            <img src="images/slider-details-shape@2x.png" class="ss2img" alt="">
+            <button>Know More</button>
+            <div class="slidershape2imagetext">
+                <div class="slidershape2image">
+                    <img src="images/slider1_img3.jpg" alt="">
+                    <img src="images/slider1_img1.jpg" alt="">
+                    <img src="images/slider1_img2.jpg" alt="">
+                </div>
+                <div class="slidershape2text">
+                    <p><strong>Awesome Places</strong><br>Discover the world one adventure at a time!</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="sponsorships">
+        <div class="socialmedia">
+            <h4>Follow</h4>
+            <div class="socialmediaicons">
+                <a href="">
+                    <img src="images/facebook.svg" alt="">
+                </a>
+                <a href="">
+                    <img src="images/twitter.svg" alt="">
+                </a>
+                <a href="">
+                    <img src="images/instagram.svg" alt="">
+                </a>
+                <a href="">
+                    <img src="images/github.svg" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="sponsors">
+            <a href=""><img src="images/Airbnb_Logo_Bélo.svg" alt=""></a>
+            <a href=""><img src="images/Booking.com_logo.svg" alt=""></a>
+            <a href=""><img src="images/Trivago.svg" alt=""></a>
+            <a href=""><img src="images/Expedia_2012_logo.svg" alt=""></a>
+        </div>
+    </section>
+
+
+    <div class="row">
+        <div class="section3header">
+            <div class="header">
+                <h1>Popular Destination</h1>
+                <p>Unleash your wanderlust with SkyWings</p>
+            </div>
+            <div class="section3carousel">
+                <button id="left" class="prev">
+                    <img src="images/line-arrow-left.svg" alt="" height="12">
+                </button>
+                <button id="right" class="next">
+                    <img src="images/line-arrow-right.svg" alt="" height="12">
+                </button>
+            </div>
+        </div>
+      <div id="slider-carousel" class="owl-carousel">
+          <div class="item">
+            <a class="hoverfx" href="#">
+              <div class="figure">
+                <i class="icon ion-search"></i>
+              </div>
+              <div class="figure">
+                <i class="icon ion-link"></i>
+              </div>
+              <div class="overlay">
+              </div>
+              <img src="images/c_slider_1.jpg" alt="">
+            </a>
+            <h4>Forest wild life</h4>
+            <img src="images/location_solid.svg" alt="" class="locationimage">
+                <h5 class="nrt">NRT, Indonesia</h5>
+                <div class="carouselrating">
+                    <img src="images/star.svg" alt="" class="starimage">
+                    <h5>4.7</h5>
+                </div>
+          </div>
+          <div class="item">
+            <a class="hoverfx" href="#">
+              <div class="figure">
+                <i class="icon ion-search"></i>
+              </div>
+              <div class="figure">
+                <i class="icon ion-link"></i>
+              </div>
+              <div class="overlay">
+              </div>
+              <img src="images/c_slider_2.jpg" alt="">
+            </a>
+            <h4>Forest wild life</h4>
+            <img src="images/location_solid.svg" alt="" class="locationimage">
+                <h5 class="nrt">NRT, Indonesia</h5>
+                <div class="carouselrating">
+                    <img src="images/star.svg" alt="" class="starimage">
+                    <h5>4.7</h5>
+                </div>
+          </div>
+          <div class="item">
+            <a class="hoverfx" href="#">
+              <div class="figure">
+                <i class="icon ion-search"></i>
+              </div>
+              <div class="figure">
+                <i class="icon ion-link"></i>
+              </div>
+              <div class="overlay">
+              </div>
+              <img src="images/c_slider_3.jpg" alt="">
+            </a>
+            <h4>Forest wild life</h4>
+            <img src="images/location_solid.svg" alt="" class="locationimage">
+            <h5 class="nrt">NRT, Indonesia</h5>
+            <div class="carouselrating">
+                <img src="images/star.svg" alt="" class="starimage">
+                <h5>4.7</h5>
+            </div>
+          </div>
+          <div class="item">
+            <a class="hoverfx" href="#">
+              <div class="figure">
+                <i class="icon ion-search"></i>
+              </div>
+              <div class="figure">
+                <i class="icon ion-link"></i>
+              </div>
+              <div class="overlay">
+              </div>
+              <img src="images/c_slider_1.jpg" alt="">
+            </a>
+            <h4>Forest wild life</h4>
+            <img src="images/location_solid.svg" alt="" class="locationimage">
+                <h5 class="nrt">NRT, Indonesia</h5>
+                <div class="carouselrating">
+                    <img src="images/star.svg" alt="" class="starimage">
+                    <h5>4.7</h5>
+                </div>
+          </div>
+          <div class="item">
+            <a class="hoverfx" href="#">
+              <div class="figure">
+                <i class="icon ion-search"></i>
+              </div>
+              <div class="figure">
+                <i class="icon ion-link"></i>
+              </div>
+              <div class="overlay">
+              </div>
+              <img src="images/c_slider_2.jpg" alt="">
+            </a>
+            <h4>Forest wild life</h4>
+            <img src="images/location_solid.svg" alt="" class="locationimage">
+                <h5 class="nrt">NRT, Indonesia</h5>
+                <div class="carouselrating">
+                    <img src="images/star.svg" alt="" class="starimage">
+                    <h5>4.7</h5>
+                </div>
+          </div>
+          <div class="item">
+            <a class="hoverfx" href="#">
+              <div class="figure">
+                <i class="icon ion-search"></i>
+              </div>
+              <div class="figure">
+                <i class="icon ion-link"></i>
+              </div>
+              <div class="overlay">
+              </div>
+              <img src="images/c_slider_3.jpg" alt="">
+            </a>
+            <h4>Forest wild life</h4>
+            <img src="images/location_solid.svg" alt="" class="locationimage">
+                <h5 class="nrt">NRT, Indonesia</h5>
+                <div class="carouselrating">
+                    <img src="images/star.svg" alt="" class="starimage">
+                    <h5>4.7</h5>
+                </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    <section class="section4">
+        <div class="section4header">
+            <h1>Journey to the skies made simple!</h1>
+            <p>Travelling is a wonderful way to explore new places, learn about different cultures, and gain unique experiences</p>
+        </div>
+        <ul>
+            <li>
+                <img src="images/info-box-img.png" alt="" class="infoboximage">
+                <div class="infoboxicon">
+                    <img src="images/location_solid.svg" alt="">
+                </div>
+                <h3>Find your<br>Destination</h3>
+                <p>Travelling is a wonderful way to explore new place, learn about different cultures, and gain unique experiences.</p>
+                <button>Learn more</button>
+            </li>
+            <li class="active">
+                <img src="images/info-box-img.png" alt="" class="infoboximage">
+                <div class="infoboxicon">
+                    <img src="images/ticket.svg" alt="">
+                </div>
+                <h3>Book<br>a Ticket</h3>
+                <p>Travelling is a wonderful way to explore new place, learn about different cultures, and gain unique experiences.</p>
+                <button>Learn more</button>
+            </li>
+            <li>
+                <img src="images/info-box-img.png" alt="" class="infoboximage">
+                <div class="infoboxicon">
+                    <img src="images/wallet.svg" alt="">
+                </div>
+                <h3>Pay &<br>Start Journey</h3>
+                <p>Travelling is a wonderful way to explore new place, learn about different cultures, and gain unique experiences.</p>
+                <button>Learn more</button>
+            </li>
+        </ul>
+    </section>
+
+
+    <section class="section5">
+        <div class="section5-a">
+            <img src="images/booking-info.jpg" alt="">
+        <ul>
+            <li>
+                <h1>Unleash</h1>
+                <p>Travelling is a wonderful way to explore new place, learn about different cultures, and gain unique</p>
+            </li>
+            <li>
+                <h1>wanderlust with</h1>
+            </li>
+            <li>
+                <p>Travelling is a wonderful way to explore new place, learn about different cultures</p>
+                <h1>skywings</h1>
+            </li>
+        </ul>
+        </div>
+        <div class="section5-b">
+            <div class="offer">
+                <h2>20% OFF</h2>
+                <p>Till 28 September, 2024</p>
+            </div>
+            <button>
+                <h1>BOOK A FLIGHT NOW</h1>
+            </button>
+        </div>
+    </section>
+
+    <section class="section6">
+        <div class="section6details">
+            <div class="section6header">
+                <h4>ABOUT US</h4>
+            </div>
+            <div class="section6moredetails">
+                <h3>Travelling is a wonderful way to explore new place, learn about different cultures, and gain unique experiences. Travelling is a wonderful way to explore new place, learn about different.</h3>
+                <ul>
+                    <li>
+                        <p>Travelling is a wonderful way to explore new place, learn about different cultures, and gain unique experiences. Travelling is a wonderful way to explore new place, learn about different cultures, and gain unique</p>
+                    </li>
+                    <li>
+                        <p>Travelling is a wonderful way to explore new place, learn about different cultures, and gain unique experiences. Travelling is a wonderful way to explore new place, learn about different cultures, and gain unique</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul class="section6-b-details">
+            <li>
+                <h1>10+</h1>
+                <h3>Years Experience</h3>
+            </li>
+            <li>
+                <h1>12K</h1>
+                <h3>Happy Clients</h3>
+            </li>
+            <li>
+                <h1>4.8</h1>
+                <h3>Overall Rating</h3>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section7">
+        <div class="section7header">
+            <h1>Discover the world from above</h1>
+            <p>Travelling is a wonderful way to explore new place, learn about different cultures, and gain unique experiences.</p>
+        </div>
+        <ul>
+            <li>
+                <div class="s7image">
+                    <img src="images/globe.svg" alt="">
+                </div>
+                <h4>Various destination</h4>
+                <p>Travelling is a wonderful way to explore new place, learn about different cultures, and gain unique experiences.</p>
+            </li>
+            <li>
+                <div class="s7image">
+                    <img src="images/ticket.svg" alt="">
+                </div>
+                <h4>Everything is Included</h4>
+                <p>Travelling is a wonderful way to explore new place, learn about different cultures, and gain unique experiences.</p>
+            </li>
+            <li>
+                <div class="s7image">
+                    <img src="images/wallet.svg" alt="">
+                </div>
+                <h4>Affordable price</h4>
+                <p>Travelling is a wonderful way to explore new place, learn about different cultures, and gain unique experiences.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section8">
+        <div class="section8header">
+            <h1>Loved by our thousand travellers</h1>
+        </div>
+        <ul>
+            <li>
+                <div class="review">
+                    <div class="rating">
+                        <img src="images/star.svg" alt="star">
+                        <img src="images/star.svg" alt="star">
+                        <img src="images/star.svg" alt="star">
+                        <img src="images/star.svg" alt="star">
+                        <img src="images/star.svg" alt="star">
+                    </div>
+                    <p>
+                        "I just returned from the most amazing trip to Europe, all thanks to this travel agency! From the moment I contacted them, they were incredibly helpful and made sure to create an itinerary that suited my interests and budget. I can't wait to book my next adventure with them!"
+                    </p>
+                </div>
+                <div class="customerprofile">
+                    <img src="images/user_1.png" alt="" height="50%" width="50%">
+                    <div class="customerdetails">
+                    <span>Arefin Shuvo</span>
+                    <p>Product Designer</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="review">
+                    <div class="rating">
+                        <img src="images/star.svg" alt="star">
+                        <img src="images/star.svg" alt="star">
+                        <img src="images/star.svg" alt="star">
+                        <img src="images/star.svg" alt="star">
+                        <img src="images/star.svg" alt="star">
+                    </div>
+                    <p>
+                        "I just returned from the most amazing trip to Europe, all thanks to this travel agency! From the moment I contacted them, they were incredibly helpful and made sure to create an itinerary that suited my interests and budget. I can't wait to book my next adventure with them!"
+                    </p>
+                </div>
+                <div class="customerprofile">
+                    <img src="images/user_2.png" alt="" height="50%" width="50%">
+                    <div class="customerdetails">
+                    <span>Arefin Shuvo</span>
+                    <p>Product Designer</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="review">
+                    <div class="rating">
+                        <img src="images/star.svg" alt="star">
+                        <img src="images/star.svg" alt="star">
+                        <img src="images/star.svg" alt="star">
+                        <img src="images/star.svg" alt="star">
+                        <img src="images/star.svg" alt="star">
+                    </div>
+                    <p>
+                        "I just returned from the most amazing trip to Europe, all thanks to this travel agency! From the moment I contacted them, they were incredibly helpful and made sure to create an itinerary that suited my interests and budget. I can't wait to book my next adventure with them!"
+                    </p>
+                </div>
+                <div class="customerprofile">
+                    <img src="images/user_3.png" alt="" height="50%" width="50%">
+                    <div class="customerdetails">
+                    <span>Arefin Shuvo</span>
+                    <p>Product Designer</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section9">
+        <img src="images/vacation-1.jpg" alt="">
+        <h2>Explore the skies with confidence!</h2>
+        <div class="rotator">
+            <div class="animation1">
+                <img src="images/stamp.svg" alt="">
+            </div>
+            <div class="animation2">
+                <img src="images/compass-pin.svg" alt="">
+            </div>
+        </div>
+        <p>Travelling is a wonderful way to explore new place, learn about different cultures, and gain.</p>
+        <img src="images/vacation-2.jpg" alt="">
+    </section>
+
+    <footer>
+        <div class="footerinformation">
+            <div class="footerlinks">
+                <div class="info1">
+                    <img src="images/logo.png" alt="">
+                    <p>Discover the world one adventure at a time. Life is short, book the trip.</p>
+                    <div class="footersocialmediaicons">
+                        <a href="">
+                            <img src="images/facebook.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="images/twitter.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="images/instagram.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="images/github.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="info3">
+                    <h2>Company</h2>
+                    <div class="info3links">
+                        <a href="">About Us</a>
+                        <a href="">Tour Guide</a>
+                        <a href="">Packages</a>
+                        <a href="">Contact</a>
+                    </div>
+                </div>
+                <div class="info3">
+                    <h2>Resources</h2>
+                    <div class="info3links">
+                        <a href="">Free eBooks</a>
+                        <a href="">Development Tutorial</a>
+                        <a href="">How to - Blog</a>
+                        <a href="">Youtube Playlist</a>
+                    </div>
+                </div>
+                <div class="info3">
+                    <h2>Extra Links</h2>
+                    <div class="info3links">
+                        <a href="">Customer Support</a>
+                        <a href="">Terms & Conditions</a>
+                        <a href="">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerlastsection">
+            <div class="lastsectiondetails">
+                <span>© 2024 UiXSHUVO All Rights Reserved</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+
+    <script>
+        function showSlide(slideIndex) {
+  const slides = document.querySelectorAll('.carouselslide');
+  slides.forEach(slide => {
+    slide.style.display = 'none';
+  });
+  const steps = document.querySelectorAll('.circle');
+  steps.forEach(step => {
+    step.classList.remove('active');
+  });
+  document.getElementById('slide' + slideIndex).style.display = 'block';
+  document.getElementById('circle' + slideIndex).classList.add('active');
+}
+document.addEventListener('DOMContentLoaded', function() {
+  showSlide(1);
+});
+
+
+
+$(document).ready(function() {
+     var owl = $("#slider-carousel");
+     owl.owlCarousel({
+       items: 3,
+       itemsDesktop: [100, 4],
+       itemsDesktopSmall: [900, 2],
+       itemsTablet: [600, 1],
+       autoplay: true,
+       autoplayTimeout: 3000,
+       autoplayHoverPause: true,
+     });
+     $(".next").click(function() {
+       owl.trigger('owl.next');
+     })
+     $(".prev").click(function() {
+       owl.trigger('owl.prev');
+     })
+   });
+    </script>
+
+<script>
+    const firstCard = document.querySelector('.section4 ul li:nth-child(1)');
+    const secondCard = document.querySelector('.section4 ul li:nth-child(2)');
+    const thirdCard = document.querySelector('.section4 ul li:nth-child(3)');
+
+    const translateValue = 'translateY(0px)'; 
+
+    firstCard.addEventListener('mouseenter', () => {
+        secondCard.style.transform = translateValue;
+        secondCard.classList.remove('active');
+    });
+
+    firstCard.addEventListener('mouseleave', () => {
+        secondCard.style.transform = 'translateY(0)';
+        secondCard.classList.add('active');
+    });
+
+    thirdCard.addEventListener('mouseenter', () => {
+        secondCard.style.transform = translateValue;
+        secondCard.classList.remove('active');
+    });
+
+    thirdCard.addEventListener('mouseleave', () => {
+        secondCard.style.transform = 'translateY(0)';
+        secondCard.classList.add('active');
+    });
+</script>
+</body>
+</html>
