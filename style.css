@@ -11,8 +11,11 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 1025px;
-    margin: 28px auto;
+    width: 80vw;
+    margin: 3rem auto;
+}
+header .logo img{
+    width: 10vw;
 }
 nav{
     display: flex;
@@ -22,8 +25,9 @@ nav{
 nav a{
     text-decoration: none;
     color: #101010;
-    margin: 0 8px;
-    padding: 16px 12px;
+    margin: 0 0.5rem;
+    padding: 1rem 1.5rem;
+    letter-spacing: 0.15rem;
 }
 .booktrip-btn{
     border: none;
@@ -33,34 +37,40 @@ nav a{
     border: none;
     color: white;
     background-color: #101010;
-    border-radius: 50px;
-    padding: 12px;
-    width: 135px;
+    border-radius: 2rem;
+    padding: 0.8rem 2.5rem;
     cursor: pointer;
-    letter-spacing: 1px;
+    letter-spacing: 0.05rem;
+    font-size: 1rem;
 }
 .upfold{
     margin: 0 auto;
     position: relative;
+    width: 90vw;
 }
 .slidershape{
-    margin: 0 70px;
+    margin: 0 10px;
     -webkit-mask-image: url(images/slider-shape@2x.png);
     mask-image:  url(images/slider-shape@2x.png);
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
+    width: 90vw;
+}
+.slidershape img{
+    width: 90vw;
+    overflow: hidden;
 }
 .flight{
     position: absolute;
-    top: 40px;
-    left: 510px;
-    width: 768px;
+    top: 5vh;
+    right: -4.4vw;
+    width: 61vw;
     overflow: hidden;
     z-index: 1;
 }
 .flight img{
     object-fit: contain;
-    height: 440px;
+    width: 75vw;
 }
 .carouselcontainer{
     display: flex;
@@ -72,12 +82,12 @@ nav a{
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-top: -600px;
-    margin-left: 140px;
+    margin-top: -39rem;
+    margin-left: 5rem;
 }
 .carouselnavigation .circle{
-    width: 50px;
-    height: 50px;
+    width: 3.2rem;
+    height: 3.2rem;
     border: 2px solid #fff;
     border-radius: 50%;
     display: flex;
@@ -96,15 +106,15 @@ nav a{
 }
 .carouselnavigation .line{
     width: 2px;
-    height: 90px;
+    height: 5.625rem;
     background-color: #fff;
 }
 .carouselcontent{
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 150px;
-    left: 250px;
+    top: 9.375rem;
+    left: 11rem;
 }
 .carouselslide{
     display: flex;
@@ -112,61 +122,62 @@ nav a{
 }
 .carouselcontent p{
     font-size: small;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.1rem;
 }
 .carouselcontent h1{
-    font-size: 60px;
-    letter-spacing: 1px;
+    font-size: 3.75rem;
+    letter-spacing: 0.1rem;
 }
 .carouselcontentbuttons{
+    display: flex;
     border: none;
+    margin-top: 1rem;
     background-color: transparent;
 }
 .carouselcontentbuttons .tripbtn{
     border: none;
     color: #ffffff;
     background-color: #2A86FF;
-    padding: 15px;
-    border-radius: 50px;
-    width: 180px;
-    letter-spacing: 1px;
+    padding: 0.938rem;
+    border-radius: 3.125rem;
+    width: 11.25rem;
+    letter-spacing: 0.063rem;
     cursor: pointer;
 }
 .carouselcontentbuttons .playbtn{
     border: none;
     position: relative;
     background-color: #ffffff;
-    top: 20px;
-    left: 10px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
+    left: 0.938rem;
+    height: 3.125rem;
+    width: 3.125rem;
+    border-radius: 3.125rem;
     cursor: pointer;
 }
 .carouselcontentbuttons .playbtn-image{
     display: flex;
     position: relative;
     margin: auto;
-    height: 19px;
-    width: 19px;
+    height: 1.188rem;
+    width: 1.188rem;
 }
 .slidershape2{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     position: relative;
-    right: -575px;
-    top: -20px;
+    left: 37rem;
+    top: -1.25rem;
     width: 29vw;
     height: 25vh;
 }
 .slidershape2 button{
     border: none;
     background-color: transparent;
-    font-size: 20px;
+    font-size: 1.25rem;
     position: absolute;
-    top: 20px;
-    right: 130px;
+    top: 1.25rem;
+    right: 8.125rem;
     font-weight: 600;
 }
 .slidershape2 button::after{
@@ -177,19 +188,19 @@ nav a{
     background-repeat: no-repeat;
     width: 2vw;
     height: 2vh;
-    right: -100px;
+    right: -6.25rem;
     top: 1.4vh;
     z-index: 1;
 }
 .slidershape2 .ss2img{
     filter: grayscale(100%) brightness(95%);
     height: 100%;
-    width: 360px;
+    width: 22.5rem;
 }
 .slidershape2imagetext{
     display: flex;
     width: 26vw;
-    margin: -81px 0;
+    margin: -5.063rem 0;
     z-index: 1;
 }
 .slidershape2image{
@@ -197,29 +208,31 @@ nav a{
     margin-right: 1vw;
 }
 .slidershape2image img{
-    width: 65px;
-    height: 65px;
+    width: 4.063rem;
+    height: 4.063rem;
     border: 0.3rem solid #F9F9FB;
-    border-radius: 48px;
+    border-radius: 3rem;
     margin-left: -0.5rem;
     position: relative;
     z-index: 1;
 }
 .slidershape2text{
-    margin-left: 10px;
+    margin-left: 0.625rem;
 }
 .slidershape2text p{
-    width: 150px;
-    font-size: 12px;
-    line-height: 20px;
+    width: 9.375rem;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
     color: #768396;
     font-weight: 900;
-    margin: -10px -15px;
+    margin: -0.625rem -0.938rem;
+    letter-spacing: 0;
+    text-transform: capitalize;
 }
 .slidershape2text p strong{
     color: #0F0F0F;
-    font-size: 15px;
-    line-height: 32px;
+    font-size: 0.938rem;
+    line-height: 2rem;
 }
 .sponsorships{
     width: 1030px;
