@@ -235,26 +235,26 @@ nav a{
     line-height: 2rem;
 }
 .sponsorships{
-    width: 1030px;
-    margin-top: 60px;
+    width: 80vw;
+    margin-top: 6vh;
     display: flex;
     flex-direction: row;
+    margin: 10vh auto;
 }
 .socialmedia{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 70px;
+    height: 10vh;
     border: 1px solid lightgray;
-    border-radius: 50px;
-    margin: 0 125px;
+    border-radius: 3.125rem;
 }
 .socialmedia h4{
-    margin-left: 32px;
-    margin-right: 32px;
-    font-size: 17.6px;
-    letter-spacing: 0.32px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.02rem;
     font-weight: normal;
     color: #768396;
 }
@@ -262,22 +262,24 @@ nav a{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    margin-right: 1rem;
 }
 .socialmediaicons a{
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid lightgray;
-    width: 32px;
-    height: 32px;
-    margin-right: 12.8px;
-    border-radius: 32px;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.8rem;
+    border-radius: 2rem;
     background: transparent;
     transition-duration: 0.5s;
 }
 .socialmediaicons a img{
-    width: 12.8px;
-    height: 12.8px;
+    width: 0.7rem;
+    height: 0.7rem;
     fill: #0F0F0F;
 }
 .socialmediaicons a:hover{
@@ -303,20 +305,19 @@ nav a{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-left: 7vw;
     flex-grow: 1;
-    margin-left: -60px;
 }
 .sponsors a{
     filter: grayscale(100%);
     transition-property: filter;
     transition-duration: 0.2s;
-    margin: 0 20px;
 }
 .sponsors a:hover{
     filter: grayscale(0%);
 }
 .sponsors a img{
-    width: 130px;
+    width: 8rem;
 }
 
 
