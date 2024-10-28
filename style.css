@@ -319,64 +319,57 @@ nav a{
 .sponsors a img{
     width: 8rem;
 }
-
-
 .row{
-    width: 80%;
+    width: 80vw;
     position: relative;
-    margin: 70px auto;
-
-  }
-  .owl-carousel .owl-wrapper:after {
+    margin: 4.5rem auto;
+}
+.owl-carousel .owl-wrapper:after{
     display: block;
     visibility: hidden;
     clear: both;
     height: 0;
     content: ".";
     line-height: 0;
-  }
-  .owl-carousel {
+}
+.owl-carousel{
     position: relative;
     display: none;
     width: 100%;
     -ms-touch-action: pan-y;
     touch-action: pan-y;
-  }
-  .owl-carousel .owl-wrapper {
+}
+.owl-carousel .owl-wrapper{
     position: relative;
     display: none;
     -webkit-transform: translate3d(0px, 0px, 0px);
     transform: translate3d(0px, 0px, 0px);
-  }
-  .owl-carousel .owl-wrapper-outer {
+}
+.owl-carousel .owl-wrapper-outer{
     position: relative;
     overflow: hidden;
     width: 100%;
-  }
-  .owl-carousel .owl-wrapper-outer.autoHeight {
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
     -webkit-transition: height 500ms ease-in-out;
     -moz-transition: height 500ms ease-in-out;
     -ms-transition: height 500ms ease-in-out;
     -o-transition: height 500ms ease-in-out;
     transition: height 500ms ease-in-out;
-  }
-  .owl-carousel .owl-item {
+}
+.owl-carousel .owl-item{
     float: left;
-  }
-  .owl-controls .owl-page,
-  .owl-controls .owl-buttons div {
-    cursor: pointer;
-  }
-  .owl-controls {
+}
+.owl-controls{
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  }
-  .owl-carousel .owl-wrapper,
-  .owl-carousel .owl-item {
+}
+.owl-carousel .owl-wrapper,
+.owl-carousel .owl-item{
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
@@ -385,86 +378,73 @@ nav a{
     -moz-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
     backface-visibility: hidden;
-  }
-  .owl-theme .owl-controls {
-    margin-top: 10px;
-    text-align: center;
-  }
-  .owl-origin {
-    -webkit-perspective: 1200px;
-    -webkit-perspective-origin-x: 50%;
-    -webkit-perspective-origin-y: 50%;
-    -moz-perspective: 1200px;
-    -moz-perspective-origin-x: 50%;
-    -moz-perspective-origin-y: 50%;
-    perspective: 1200px;
-  }
-  .owl-fade-out {
+}
+.owl-fade-out{
     z-index: 10;
     -webkit-animation: fadeOut .7s both ease;
     -moz-animation: fadeOut .7s both ease;
     animation: fadeOut .7s both ease;
-  }
-  .owl-fade-in {
+}
+.owl-fade-in{
     -webkit-animation: fadeIn .7s both ease;
     -moz-animation: fadeIn .7s both ease;
     animation: fadeIn .7s both ease;
-  }
-  .owl-backSlide-out {
+}
+.owl-backSlide-out{
     -webkit-animation: backSlideOut 1s both ease;
     -moz-animation: backSlideOut 1s both ease;
     animation: backSlideOut 1s both ease;
-  }
-  .owl-backSlide-in {
+}
+.owl-backSlide-in{
     -webkit-animation: backSlideIn 1s both ease;
     -moz-animation: backSlideIn 1s both ease;
     animation: backSlideIn 1s both ease;
-  }
-  .owl-goDown-out {
+}
+.owl-goDown-out{
     -webkit-animation: scaleToFade .7s ease both;
     -moz-animation: scaleToFade .7s ease both;
     animation: scaleToFade .7s ease both;
-  }
-  .owl-goDown-in {
+}
+.owl-goDown-in{
     -webkit-animation: goDown .6s ease both;
     -moz-animation: goDown .6s ease both;
     animation: goDown .6s ease both;
-  }
-  .owl-fadeUp-in {
+}
+.owl-fadeUp-in{
     -webkit-animation: scaleUpFrom .5s ease both;
     -moz-animation: scaleUpFrom .5s ease both;
     animation: scaleUpFrom .5s ease both;
-  }
+}
 .section3header{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 38px;
+    margin-bottom: 5vh;
 }
 .section3header .header h1{
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 600;
-    letter-spacing: 1.6px;
-    margin-bottom: 7px;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1vh;
 }
 .section3header .header p{
-    font-size: 17.6px;
+    font-size: 1.1rem;
     font-weight: 200;
     color: #768396;
-    line-height: 28.8px;
+    line-height: 1.8rem;
 }
 .section3carousel{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 107px;
+    width: 8.5vw;
     justify-content: space-between;
 }
 .section3carousel button{
-    width: 64px;
-    height: 64px;
-    border-radius: 32px;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 5rem;
     border: none;
 }
 .section3carousel button:hover{
@@ -474,76 +454,88 @@ nav a{
     filter: invert(100%);
 }
 .item{
-    margin: 20px 30px;
+    margin: 0.5rem 0.625rem;
     background: #fff;
 }
 .item img {
     width: 150%;
     height: 100%;
-    border-radius: 20px;
+    border-radius: 2rem;
 }
-.item .locationimage{
-    height: 15px;
-    width: 15px;
-    margin-left: 10px;
-    position: relative;
-    bottom: 5px;
-}
-.item h4 {
-    margin-top: 5px;
-    font-size: 25px;
-    color:black;
-    padding: 10px;
-}
-.carouselrating{
-    background-color: #2A86FF;
+.slidertext{
     display: flex;
-    padding: 0.8rem 16px;
-    border-radius: 32px;
-    width: 26%;
-    margin-left: 205px;
-    position: relative;
-    bottom: 50px;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
 }
-.carouselrating img{
-    width: 14px;
-    fill: white;
-    margin-right: 0.5rem;
-    position: relative;
-    top: 5px;
-    filter: invert(100%);
-}
-.carouselrating h5{
-    font-size: 16px;
-    color: white;
+.slidertext h3{
+    font-size: 1.6rem;
     font-weight: 500;
+    letter-spacing: 0.03rem;
 }
-.item .nrt{
+.slidertext h5{
+    position: relative;
+    margin-top: 0.3rem;
+    margin-left: 1.5rem;
     font-weight: 300;
     font-size: 1rem;
-    margin-left: 1.9rem;
-    position: relative;
-    margin-top: -27px;
     color: #768396;
 }
-  .hoverfx {
+.slidertext h5::before{
+    content: "";
+    position: absolute;
+    background-image: url(images/location_solid.svg);
+    background-size: 0.7rem;
+    background-repeat: no-repeat;
+    background-position: 0 0.2rem;
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    left: -1.5rem;
+}
+.carouselrating{
+    display: flex;
+    flex-direction: row;
+    background-color: #2A86FF;
+    padding: 0.8rem 1.2rem;
+    border-radius: 2rem;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    margin: -1.5rem 14rem;
+    position: relative;
+    bottom: 1.5rem;
+    left: 0.5rem;
+}
+.carouselrating img{
+    width: 1rem;
+    filter: invert(100%);
+    margin: 0 0.5rem;
+    margin-left: -0rem;
+}
+.carouselrating h5{
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: 500;
+}
+.hoverfx{
     position: relative;
     display: block;
     overflow: hidden;
     text-align: center;
   }
-  .hoverfx img {
+.hoverfx img{
     position: absolute;
     left: 0;
     width: 100%;
-  }
-  .hoverfx:before {
+}
+.hoverfx::before{
     display: inline-block;
     padding-top: 60%;
     content: '';
     vertical-align: middle;
-  }
-  .hoverfx .figure {
+}
+.hoverfx .figure{
     position: relative;
     display: inline-block;
     padding: 10px 15px;
@@ -559,8 +551,8 @@ nav a{
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
     transition-property: all .3s ease;
-  }
-  .hoverfx .overlay {
+}
+.hoverfx .overlay{
     position: absolute;
     top: 0;
     z-index: 1;
@@ -572,51 +564,47 @@ nav a{
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
     transition-property: all .3s ease;
-  }
-
-
-
-
+}
 .section4{
-    width: 80%;
+    width: 80vw;
     display: flex;
     flex-direction: column;
-    margin: 60px auto;
+    margin: 10vh auto;
 }
 .section4header{
     text-align: center;
 }
 .section4header h1{
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 600;
-    letter-spacing: 1.6px;
-    margin-bottom: 7px;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1.5vh;
 }
 .section4header p{
-    font-size: 17.6px;
+    font-size: 1.1rem;
     font-weight: 200;
     color: #768396;
-    line-height: 28.8px;
-    margin: 0 270px;
+    line-height: 1.8rem;
+    margin: 0 20vw;
 }
 .section4 ul{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    height: 422px;
+    height: 82vh;
 }
 .section4 ul li{
     background-color: #f9f9fb;
-    padding: 54.64px;
-    width: 454.878px;
-    height: 220px;
-    border-radius: 48px 48px 48px 48px;
+    padding: 3.415rem;
+    width: 28.43rem;
+    height: 15rem;
+    border-radius: 3rem 3rem 3rem 3rem;
     position: relative;
     overflow: hidden;
     transition: background-color 0.3s ease, height 1s, transform 0.3s ease, box-shadow 0.3s ease;
 }
 .section4 ul li h3{
-    font-size: 28.8px;
+    font-size: 1.8rem;
     font-weight: 500;
     transition: color 0.3s ease;
 }
@@ -626,54 +614,54 @@ nav a{
 }
 .section4 ul li p{
     font-weight: 200;
-    line-height: 28.8px;
+    line-height: 1.8rem;
 }
 .section4 ul li button{
-    font-size: 17.6px;
+    font-size: 1.1rem;
     position: relative;
 }
 .section4 ul li button::after{
     content: "";
     position: absolute;
-    width: 8.8px;
-    height: 14.4px;
+    width: 0.55rem;
+    height: 0.9rem;
     background-image: url(images/line-arrow-right.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 24px;
-    margin-top: 3.2px;
+    margin-left: 1.5rem;
+    margin-top: 0.2rem;
     filter: brightness(0) saturate(100%) invert(83%) sepia(87%) saturate(49%) hue-rotate(83deg) brightness(116%) contrast(94%);
 }
 .section4 ul li:nth-child(1){
-    border-radius: 48px 48px 0 48px;
+    border-radius: 3rem 3rem 0 3rem;
 }
 .section4 ul li:nth-child(2){
-    border-radius: 48px 48px 0 0;
+    border-radius: 3rem 3rem 0 0;
 }
 .section4 ul li:nth-child(3){
-    border-radius: 48px 48px 48px 0;
+    border-radius: 3rem 3rem 3rem 0;
 }
 .section4 ul li .infoboxicon{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 64px;
-    height: 64px;
+    width: 4rem;
+    height: 4rem;
     background-color: white;
-    border-radius: 32px;
-    margin-bottom: 23px;
+    border-radius: 2rem;
+    margin-bottom: 1.438rem;
 }
 .section4 ul li .infoboxicon img{
-    width: 25px;
+    width: 1.563rem;
     filter: brightness(0) saturate(100%) invert(42%) sepia(97%) saturate(2073%) hue-rotate(202deg) brightness(99%) contrast(99%);
 }
 .section4 ul li.active, .section4 ul li:hover{
     background-color: #2A86FF;
-    height: 412px;
+    height: 29rem;
 }
 .section4 ul li.active h3, .section4 ul li:hover h3{
     color: white;
-    margin-bottom: 23px;
+    margin-bottom: 1.438rem;
 }
 .section4 ul li.active p, .section4 ul li.active button, .section4 ul li:hover p, .section4 ul li:hover button{
     display: block;
@@ -692,10 +680,10 @@ nav a{
 .section4 ul li.active .infoboximage, .section4 ul li:hover .infoboximage{
     display: block;
     position: absolute;
-    width: 177px;
+    width: 11.063rem;
     top: 0;
     right: 0;
-    border-radius: 0 48px 0 0;
+    border-radius: 0 3rem 0 0;
 }
 .section4 ul li.active .infoboxicon, .section4 ul li:hover .infoboxicon{
     background-color: transparent;
@@ -705,8 +693,8 @@ nav a{
     filter: brightness(0) saturate(100%) invert(83%) sepia(87%) saturate(49%) hue-rotate(83deg) brightness(116%) contrast(94%);
 }
 .section5{
-    width: 1092px;
-    margin: 76px auto;
+    width: 80vw;
+    margin: 10vh auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -719,34 +707,34 @@ nav a{
     margin-left: 35px;
 }
 .section5-a img{
-    width: 340px;
-    border-radius: 32px;
+    width: 28vw;
+    border-radius: 2rem;
 }
 .section5-a ul{
     display: flex;
     flex-direction: column;
-    margin-left: 40px;
+    margin-left: 4.5vw;
 }
 .section5-a ul li{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 3.84px 0;
+    margin: 0.5vh 0;
 }
 .section5-a ul li h1{
-    font-size: 85px;
+    font-size: 6rem;
     text-transform: uppercase;
-    letter-spacing: 3.2px;
+    letter-spacing: 0.2rem;
 }
 .section5-a ul li p{
-    margin-left: 13.66px;
-    line-height: 32px;
+    margin-left: 1vw;
+    line-height: 2rem;
     color: #768396;
 }
 .section5-a ul li:nth-child(3) p{
     margin-left: 0;
-    margin-right: 13.66px;
+    margin-right: 1vw;
 }
 .section5-b{
     display: flex;
@@ -757,33 +745,32 @@ nav a{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    width: 325px;
-    height: 110px;
+    width: 27vw;
+    height: 16vh;
     background-color: #F9F9FB;
-    border-radius: 32px;
+    border-radius: 2rem;
 }
 .section5-b .offer h2{
-    font-size: 40px;
+    font-size: 2.7rem;
     font-weight: 500;
     color: #2A86FF;
 }
 .section5-b .offer p{
-    width: 130px;
-    margin-left: 13.66px;
+    width: 10vw;
+    margin-left: 1vw;
     color: #768396;
 }
 .section5-b button{
-    width: 700px;
-    border-radius: 32px;
+    position: relative;
+    width: 55vw;
+    border-radius: 2rem;
     border: none;
     background-image: url(images/sky.jpg);
     background-position: center;
 }
 .section5-b button h1{
-    font-size: 35.2px;
+    font-size: 2.2rem;
     font-weight: 400;
-    position: relative;
-    margin-left: -8px;
 }
 .section5-b button h1::after{
     position: absolute;
@@ -792,10 +779,10 @@ nav a{
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    width: 24px;
-    height: 25.6px;
-    margin-left: 16px;
-    margin-top: 9.6px;
+    width: 1.5rem;
+    height: 1.6rem;
+    margin-left: 2rem;
+    margin-top: 0.6rem;
 }
 .section6{
     width: 80vw;
@@ -814,26 +801,26 @@ nav a{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 19.2px;
+    font-size: 1.2rem;
     text-transform: uppercase;
     font-weight: normal;
     background-color: #F9F9FB;
-    height: 80px;
-    width: 208px;
-    border-radius: 50px;
+    height: 5rem;
+    width: 13rem;
+    border-radius: 3rem;
 }
 .section6moredetails{
     display: flex;
     flex-direction: column;
 }
 .section6moredetails h3{
-    font-size: 32px;
+    font-size: 2rem;
     text-transform: capitalize;
     font-weight: normal;
 }
 .section6moredetails ul{
     display: flex;
-    margin-top: 32px;
+    margin-top: 2rem;
 }
 .section6moredetails ul li{
     padding: 0.1rem 0 0.1rem 2rem;
@@ -845,18 +832,17 @@ nav a{
     margin-left: 0;
 }
 .section6moredetails ul li p{
-    font-size: 19.2px;
+    font-size: 1.2rem;
     font-weight: 200;
     color: #768396;
-    line-height: 28.8px;
+    line-height: 1.8rem;
 }
 .section6-b-details{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-top: 80px;
-    gap: 20px;
+    margin-top: 5rem;
 }
 .section6-b-details li{
     display: flex;
@@ -864,17 +850,17 @@ nav a{
     align-items: center;
     flex-direction: column;
     background-color: #F9F9FB;
-    height: 430px;
-    width: 430px;
-    border-radius: 112px;
+    height: 28rem;
+    width: 28rem;
+    border-radius: 7rem;
 }
 .section6-b-details li h1{
-    font-size: 144px;
+    font-size: 9rem;
     font-weight: normal;
     color: #2A86FF;
 }
 .section6-b-details li h3{
-    font-size: 30.4px;
+    font-size: 1.9rem;
     font-weight: 300;
 }
 .section7{
@@ -887,16 +873,16 @@ nav a{
     text-align: center;
 }
 .section7header h1{
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 600;
-    letter-spacing: 1.6px;
+    letter-spacing: 0.1rem;
     margin-bottom: 1vh;
 }
 .section7header p{
-    font-size: 17.6px;
+    font-size: 1.1rem;
     font-weight: 200;
     color: #768396;
-    line-height: 28.8px;
+    line-height: 1.8rem;
     letter-spacing: 0;
     margin: 0 20vw;
 }
@@ -912,34 +898,33 @@ nav a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-right: 64px;
+    margin-right: 4rem;
     text-align: center;
 }
 .section7 ul li .s7image{
-    width: 80px;
-    height: 80px;
+    width: 5rem;
+    height: 5rem;
     background-color: #F9F9FB;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 48px;
+    border-radius: 3rem;
 }
 .section7 ul li .s7image img{
-    width: 32px;
+    width: 2rem;
     filter: brightness(0) saturate(100%) invert(42%) sepia(97%) saturate(2073%) hue-rotate(202deg) brightness(99%) contrast(99%);
 }
-.section7 ul li h4{
-    font-size: 22px;
-    margin: 22px auto;
+.section7 ul li h2{
+    font-size: 1.7rem;
+    margin: 2rem 5rem 2rem;
     font-weight: 600;
-    width: 120px;
 }
 .section7 ul li p{
-    font-size: 16px;
+    font-size: 1.2rem;
     width: 300px;
     font-weight: 200;
     color: #768396;
-    line-height: 28.8px;
+    line-height: 1.8rem;
     letter-spacing: 0;
 }
 .section8{
@@ -951,9 +936,9 @@ nav a{
     margin-top: 15vh;
 }
 .section8header h1{
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 600;
-    letter-spacing: 1.6px;
+    letter-spacing: 0.1rem;
     margin-bottom: 1vh;
 }
 .section8 ul{
@@ -964,22 +949,20 @@ nav a{
     margin-top: 10vh;
 }
 .section8 ul li{
+    flex-grow: 1;
     background-color: #f9f9fb;
-    margin-right: 32px;
-    border-radius: 48px;
+    margin-right: 2rem;
+    border-radius: 3rem;
     transition: background-color 0.5s;
     list-style-type: none;
 }
 .section8 .review{
     display: flex;
     flex-direction: column;
-    margin: 4.8px;
+    margin: 0.3rem;
     background-color: white;
-    padding: 10px 10px 0 10px;
-    border-radius: 44.8px;
-}
-.rating img{
-    margin: 20px 0 0 10px;
+    padding: 3rem 3rem 0 3rem;
+    border-radius: 2.8rem;
 }
 .section8 ul li:hover{
     background-color: #2A86FF;
@@ -989,19 +972,17 @@ nav a{
     color: white;
 }
 .section8 .review img{
-    width: 24px;
-    margin-right: 8px;
+    width: 1.5rem;
+    margin-right: 0.5rem;
     filter: brightness(0) saturate(100%) invert(42%) sepia(97%) saturate(2073%) hue-rotate(202deg) brightness(99%) contrast(99%);
 }
 .section8 .review p{
     text-transform: capitalize;
-    width: 300px;
-    font-size: 19.2px;
+    font-size: 1.2rem;
     font-weight: 200;
     color: #768396;
-    line-height: 28.8px;
-    margin: 32px 0 45px;
-    padding-left: 10px;
+    line-height: 1.8rem;
+    margin: 2rem 0 3rem;
 }
 .customerprofile{
     display: flex;
@@ -1010,17 +991,18 @@ nav a{
     margin: 4vh 0 4vh -5vw;
 }
 .customerprofile img{
-    width: 80px;
-    border-radius: 48px;
-    margin-right: 32px;
+    width: 5rem;
+    border-radius: 3rem;
+    margin-right: 1rem;
 }
 .customerdetails{
     display: flex;
     flex-direction: column;
 }
 .customerdetails span{
-    font-size: 24px;
+    font-size: 1.2rem;
     font-weight: 400;
+    line-height: 1.8rem;
 }
 .customerdetails p{
     font-size: 1.2rem;
@@ -1038,12 +1020,12 @@ nav a{
 }
 .section9 img{
     width: 12vw;
-    border-radius: 160px;
+    border-radius: 10rem;
 }
 .section9 h2{
     width: 30vw;
-    margin-left: 32px;
-    margin-right: 32px;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 .section9 .rotator{
     width: 10vw;
@@ -1083,18 +1065,18 @@ nav a{
     }
 }
 .rotator .animation2 img{
-    width: 32px;
+    width: 2rem;
     border-radius: 0;
 }
 .section9 p{
-    font-size: 17.6px;
+    font-size: 1.1rem;
     font-weight: 200;
     color: #768396;
-    line-height: 28.8px;
+    line-height: 1.8rem;
     letter-spacing: 0;
     width: 30vw;
-    margin-left: 32px;
-    margin-right: 32px;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 footer{
     display: flex;
@@ -1121,36 +1103,36 @@ footer{
 }
 .info1 img{
     width: 10vw;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
 }
 .info1 p{
-    font-size: 17.6px;
+    font-size: 1.1rem;
     font-weight: 200;
     color: #768396;
-    line-height: 28.8px;
+    line-height: 1.8rem;
 }
 .footersocialmediaicons{
     width: 12vw;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 5px;
+    margin-top: 1rem;
 }
 .footersocialmediaicons a{
     display: flex;
     align-items: center;
     justify-content: center;
     border: 1px solid #F0F1F5;
-    height: 32px;
-    width: 32px;
-    margin-right: 12.8px;
-    border-radius: 32px;
+    height: 2rem;
+    width: 2rem;
+    margin-right: 0.8rem;
+    border-radius: 2rem;
     background: transparent;
     transition-duration: 0.5s;
 }
 .footersocialmediaicons a img{
-    height: 12.8px;
-    width: 12.8px;
+    height: 0.8rem;
+    width: 0.8rem;
     fill: #0F0F0F;
     margin: auto;
 }
@@ -1174,7 +1156,7 @@ footer{
     flex-direction: column;
 }
 .info3 h2{
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
     color: #0F0F0F;
     font-weight: 500;
 }
@@ -1185,7 +1167,7 @@ footer{
 .info3 .info3links a{
     text-decoration: none;
     color: #0F0F0F;
-    margin: 4.8px 0;
+    margin: 0.3rem 0;
 }
 .footerlastsection{
     border-top: 2px solid #F0F1F5;
