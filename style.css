@@ -11,7 +11,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 80vw;
+    width: 80rem;
     margin: 3rem auto;
 }
 header .logo img{
@@ -48,23 +48,11 @@ nav a{
     position: relative;
     width: 90vw;
 }
-.slidershape{
-    margin: 0 10px;
-    -webkit-mask-image: url(images/slider-shape@2x.png);
-    mask-image:  url(images/slider-shape@2x.png);
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-    width: 90vw;
-}
-.slidershape img{
-    width: 90vw;
-    overflow: hidden;
-}
 .flight{
     position: absolute;
     top: 5vh;
-    right: -4.4vw;
-    width: 61vw;
+    right: -5vw;
+    width: 65vw;
     overflow: hidden;
     z-index: 1;
 }
@@ -72,9 +60,31 @@ nav a{
     object-fit: contain;
     width: 75vw;
 }
+.slider{
+    margin: 0;
+    position: relative;
+}
+.slidershape{
+    -webkit-mask-image: url(images/slider-shape@2x.png);
+    mask-image:  url(images/slider-shape@2x.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: top;
+            mask-position: top;
+    -webkit-mask-size: contain;
+            mask-size: contain;
+    overflow: hidden;
+}
+.slidershape img{
+    width: 90vw;
+    overflow: hidden;
+}
 .carouselcontainer{
     display: flex;
-    align-items: center;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
 }
 .carouselnavigation{
     display: flex;
@@ -82,12 +92,12 @@ nav a{
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-top: -39rem;
-    margin-left: 5rem;
+    margin-top: -30rem;
+    margin-right: 61rem;
 }
 .carouselnavigation .circle{
-    width: 3.2rem;
-    height: 3.2rem;
+    width: 3.5rem;
+    height: 3.5rem;
     border: 2px solid #fff;
     border-radius: 50%;
     display: flex;
@@ -106,27 +116,29 @@ nav a{
 }
 .carouselnavigation .line{
     width: 2px;
-    height: 5.625rem;
+    height: 7.3rem;
     background-color: #fff;
 }
-.carouselcontent{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 9.375rem;
-    left: 11rem;
-}
 .carouselslide{
-    display: flex;
-    flex-direction: column;
+    display: none;
+    height: 100%;
+    width: 100%;
 }
-.carouselcontent p{
-    font-size: small;
-    letter-spacing: 0.1rem;
+.slidercarouseltext{
+    position: absolute;
+    top: 22.8vh;
+    left: 13vw;
+    height: 28vw;
 }
-.carouselcontent h1{
-    font-size: 3.75rem;
+.slidercarouseltext h4{
+    font-weight: 400;
     letter-spacing: 0.1rem;
+    font-size: 1rem;
+}
+.slidercarouseltext h1{
+    font-size: 5rem;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
 }
 .carouselcontentbuttons{
     display: flex;
@@ -165,9 +177,10 @@ nav a{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    position: relative;
-    left: 37rem;
-    top: -1.25rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 75.2vh;
     width: 29vw;
     height: 25vh;
 }
@@ -195,12 +208,12 @@ nav a{
 .slidershape2 .ss2img{
     filter: grayscale(100%) brightness(95%);
     height: 100%;
-    width: 22.5rem;
+    width: 23rem;
 }
 .slidershape2imagetext{
     display: flex;
     width: 26vw;
-    margin: -5.063rem 0;
+    margin: -5.05rem 0.4rem;
     z-index: 1;
 }
 .slidershape2image{
@@ -236,10 +249,11 @@ nav a{
 }
 .sponsorships{
     width: 80vw;
-    margin-top: 6vh;
     display: flex;
     flex-direction: row;
     margin: 10vh auto;
+    position: relative;
+    top: 13vh;
 }
 .socialmedia{
     display: flex;
@@ -322,7 +336,9 @@ nav a{
 .row{
     width: 80vw;
     position: relative;
-    margin: 4.5rem auto;
+    margin: 5rem auto;
+    top: 12vh;
+
 }
 .owl-carousel .owl-wrapper:after{
     display: block;
@@ -569,7 +585,9 @@ nav a{
     width: 80vw;
     display: flex;
     flex-direction: column;
-    margin: 10vh auto;
+    margin: 25vh auto;
+    position: relative;
+    top: 1vh;
 }
 .section4header{
     text-align: center;
