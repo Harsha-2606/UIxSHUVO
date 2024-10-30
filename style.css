@@ -89,11 +89,10 @@ nav a{
 .carouselnavigation{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    position: relative;
-    margin-top: -30rem;
-    margin-right: 61rem;
+    position: absolute;
+    margin-top: -78vh;
+    margin-left: 10vh;
 }
 .carouselnavigation .circle{
     width: 3.5rem;
@@ -111,7 +110,7 @@ nav a{
 }
 .carouselnavigation .circle:hover{
     background-color: #fff;
-    color: #2A86FF;
+    color: #0F0F0F;
     transition: 0.3s ease;
 }
 .carouselnavigation .line{
@@ -179,18 +178,17 @@ nav a{
     align-items: flex-end;
     position: absolute;
     right: 0;
-    bottom: 0;
-    top: 75.2vh;
+    bottom: 3vh;
     width: 29vw;
-    height: 25vh;
+    height: 22vh;   
 }
 .slidershape2 button{
     border: none;
     background-color: transparent;
-    font-size: 1.25rem;
+    font-size: 3.5vh;
     position: absolute;
-    top: 1.25rem;
-    right: 8.125rem;
+    top: 3.3vh;
+    right: 10vw;
     font-weight: 600;
 }
 .slidershape2 button::after{
@@ -201,19 +199,17 @@ nav a{
     background-repeat: no-repeat;
     width: 2vw;
     height: 2vh;
-    right: -6.25rem;
+    right: -7.7vw;
     top: 1.4vh;
     z-index: 1;
 }
 .slidershape2 .ss2img{
     filter: grayscale(100%) brightness(95%);
-    height: 100%;
-    width: 23rem;
 }
 .slidershape2imagetext{
     display: flex;
     width: 26vw;
-    margin: -5.05rem 0.4rem;
+    margin: -13.2vh 0.5vw;
     z-index: 1;
 }
 .slidershape2image{
@@ -221,11 +217,11 @@ nav a{
     margin-right: 1vw;
 }
 .slidershape2image img{
-    width: 4.063rem;
-    height: 4.063rem;
-    border: 0.3rem solid #F9F9FB;
+    width: 5.1vw;
+    height: 10.9vh;
+    border: 4px solid #F9F9FB;
     border-radius: 3rem;
-    margin-left: -0.5rem;
+    margin-left: -0.8vw;
     position: relative;
     z-index: 1;
 }
@@ -252,21 +248,20 @@ nav a{
     display: flex;
     flex-direction: row;
     margin: 10vh auto;
-    position: relative;
-    top: 13vh;
+    margin-top: 10vh;
 }
 .socialmedia{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 10vh;
+    height: 8vh;
     border: 1px solid lightgray;
-    border-radius: 3.125rem;
+    border-radius: 5rem;
 }
 .socialmedia h4{
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     font-size: 1.1rem;
     letter-spacing: 0.02rem;
     font-weight: normal;
@@ -284,16 +279,16 @@ nav a{
     justify-content: center;
     align-items: center;
     border: 1px solid lightgray;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 2rem;
+    height: 2rem;
     margin-right: 0.8rem;
     border-radius: 2rem;
     background: transparent;
     transition-duration: 0.5s;
 }
 .socialmediaicons a img{
-    width: 0.7rem;
-    height: 0.7rem;
+    width: 0.8rem;
+    height: 0.8rem;
     fill: #0F0F0F;
 }
 .socialmediaicons a:hover{
@@ -319,7 +314,7 @@ nav a{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-left: 7vw;
+    margin-left: 8vw;
     flex-grow: 1;
 }
 .sponsors a{
@@ -331,14 +326,12 @@ nav a{
     filter: grayscale(0%);
 }
 .sponsors a img{
-    width: 8rem;
+    width: 10rem;
 }
 .row{
     width: 80vw;
     position: relative;
-    margin: 5rem auto;
-    top: 12vh;
-
+    margin: 0 auto;
 }
 .owl-carousel .owl-wrapper:after{
     display: block;
@@ -454,14 +447,18 @@ nav a{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 8.5vw;
+    width: 8vw;
     justify-content: space-between;
 }
 .section3carousel button{
-    width: 3rem;
-    height: 3rem;
+    width: 4rem;
+    height: 4rem;
     border-radius: 5rem;
     border: none;
+}
+.section3carousel button img{
+    height: 1.1rem;
+    margin-top: 0.2rem;
 }
 .section3carousel button:hover{
     background-color: #0F0F0F;
@@ -470,6 +467,8 @@ nav a{
     filter: invert(100%);
 }
 .item{
+    display: flex;
+    flex-direction: column;
     margin: 0.5rem 0.625rem;
     background: #fff;
 }
@@ -585,9 +584,7 @@ nav a{
     width: 80vw;
     display: flex;
     flex-direction: column;
-    margin: 25vh auto;
-    position: relative;
-    top: 1vh;
+    margin: 10vh auto;
 }
 .section4header{
     text-align: center;
@@ -596,7 +593,7 @@ nav a{
     font-size: 2.5rem;
     font-weight: 600;
     letter-spacing: 0.1rem;
-    margin-bottom: 1.5vh;
+    margin-bottom: 1vh;
 }
 .section4header p{
     font-size: 1.1rem;
@@ -609,13 +606,14 @@ nav a{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    height: 82vh;
+    margin-top: 5vh;
+    height: 55vh;
 }
 .section4 ul li{
     background-color: #f9f9fb;
-    padding: 3.415rem;
-    width: 28.43rem;
-    height: 15rem;
+    padding: 4vw;
+    width: 33.3vw;
+    height: 30vh;
     border-radius: 3rem 3rem 3rem 3rem;
     position: relative;
     overflow: hidden;
@@ -667,15 +665,15 @@ nav a{
     height: 4rem;
     background-color: white;
     border-radius: 2rem;
-    margin-bottom: 1.438rem;
+    margin-bottom: 3vh;
 }
 .section4 ul li .infoboxicon img{
-    width: 1.563rem;
+    width: 1.5rem;
     filter: brightness(0) saturate(100%) invert(42%) sepia(97%) saturate(2073%) hue-rotate(202deg) brightness(99%) contrast(99%);
 }
 .section4 ul li.active, .section4 ul li:hover{
     background-color: #2A86FF;
-    height: 29rem;
+    height: 55vh;
 }
 .section4 ul li.active h3, .section4 ul li:hover h3{
     color: white;
@@ -722,10 +720,9 @@ nav a{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 35px;
 }
 .section5-a img{
-    width: 28vw;
+    width: 25vw;
     border-radius: 2rem;
 }
 .section5-a ul{
@@ -763,8 +760,8 @@ nav a{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    width: 27vw;
-    height: 16vh;
+    width: 25vw;
+    height: 14vh;
     background-color: #F9F9FB;
     border-radius: 2rem;
 }
@@ -788,6 +785,7 @@ nav a{
 }
 .section5-b button h1{
     font-size: 2.2rem;
+    margin-left: -0.5rem;
     font-weight: 400;
 }
 .section5-b button h1::after{
@@ -799,7 +797,7 @@ nav a{
     background-repeat: no-repeat;
     width: 1.5rem;
     height: 1.6rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-top: 0.6rem;
 }
 .section6{
@@ -843,7 +841,6 @@ nav a{
 .section6moredetails ul li{
     padding: 0.1rem 0 0.1rem 2rem;
     border-left: 5px solid #2A86FF;
-    margin-left: 16px;
     list-style-type: none;
 }
 .section6moredetails ul li:first-child{
@@ -934,7 +931,7 @@ nav a{
 }
 .section7 ul li h2{
     font-size: 1.7rem;
-    margin: 2rem 5rem 2rem;
+    margin: 2rem 7rem 2rem;
     font-weight: 600;
 }
 .section7 ul li p{
@@ -944,6 +941,9 @@ nav a{
     color: #768396;
     line-height: 1.8rem;
     letter-spacing: 0;
+}
+.section7 ul li:last-child{
+    margin-right: 0;
 }
 .section8{
     width: 80vw;
