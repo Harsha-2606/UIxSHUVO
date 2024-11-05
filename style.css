@@ -91,7 +91,7 @@ nav a{
     flex-direction: column;
     align-items: center;
     position: absolute;
-    margin-top: -78vh;
+    margin-top: -73vh;
     margin-left: 10vh;
 }
 .carouselnavigation .circle{
@@ -193,7 +193,7 @@ nav a{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
-    filter: grayscale(100%) brightness(95%);
+    filter: grayscale(100%) brightness(98%);
     z-index: -1;
     height: 25vh;
 }
@@ -202,7 +202,7 @@ nav a{
     background: none;
     font-size: 1.5rem;
     position: absolute;
-    margin-top: 3vh;
+    margin-top: 4vh;
     margin-right: 2.5rem;
     width: 16.5vw;
     text-align: left;
@@ -216,21 +216,21 @@ nav a{
     width: 2vw;
     height: 2vh;
     right: 0;
-    top: 2vh;
+    top: 0.5vh;
     z-index: 1;
 }
 .slidershape2imagetext{
     display: flex;
     width: 26.6vw;
-    margin-top: 4.05rem;
+    margin-top: 12vh;
 }
 .slidershape2image{
     display: flex;
     margin-right: 1vw;
 }
 .slidershape2image img{
-    width: 5rem;
-    height: 5rem;
+    width: 6rem;
+    height: 6rem;
     border: 0.3rem solid #F9F9FB;
     border-radius: 3rem;
     margin-left: -1rem;
@@ -238,6 +238,7 @@ nav a{
     position: relative;
 }
 .slidershape2text{
+    margin-top: 0.5rem;
     margin-right: 2rem;
     margin-left: 1rem;
 }
@@ -527,11 +528,12 @@ nav a{
     background-color: #2A86FF;
     padding: 0.8rem 1.2rem;
     border-radius: 2rem;
+    gap: 0.4rem;
 }
 .carouselrating img{
     width: 1rem;
     filter: invert(100%);
-    margin: auto 0.5rem;
+    margin: auto;
 }
 .carouselrating h5{
     font-size: 1rem;
