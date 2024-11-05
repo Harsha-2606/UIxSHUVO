@@ -180,16 +180,32 @@ nav a{
     right: 0;
     bottom: 3vh;
     width: 29vw;
-    height: 22vh;   
+    height: 22vh;
+}
+.slidershape2::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('images/slider-details-shape@2x.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    filter: grayscale(100%) brightness(95%);
+    z-index: -1;
+    height: 25vh;
 }
 .slidershape2 button{
     border: none;
-    background-color: transparent;
-    font-size: 3.5vh;
+    background: none;
+    font-size: 1.5rem;
     position: absolute;
-    top: 3.3vh;
-    right: 10vw;
-    font-weight: 600;
+    margin-top: 3vh;
+    margin-right: 2.5rem;
+    width: 16.5vw;
+    text-align: left;
 }
 .slidershape2 button::after{
     content: "";
@@ -199,48 +215,41 @@ nav a{
     background-repeat: no-repeat;
     width: 2vw;
     height: 2vh;
-    right: -7.7vw;
-    top: 1.4vh;
+    right: 0;
+    top: 2vh;
     z-index: 1;
-}
-.slidershape2 .ss2img{
-    filter: grayscale(100%) brightness(95%);
 }
 .slidershape2imagetext{
     display: flex;
-    width: 26vw;
-    margin: -13.2vh 0.5vw;
-    z-index: 1;
+    width: 26.6vw;
+    margin-top: 4.05rem;
 }
 .slidershape2image{
     display: flex;
     margin-right: 1vw;
 }
 .slidershape2image img{
-    width: 5.1vw;
-    height: 10.9vh;
-    border: 4px solid #F9F9FB;
+    width: 5rem;
+    height: 5rem;
+    border: 0.3rem solid #F9F9FB;
     border-radius: 3rem;
-    margin-left: -0.8vw;
-    position: relative;
+    margin-left: -1rem;
     z-index: 1;
+    position: relative;
 }
 .slidershape2text{
-    margin-left: 0.625rem;
+    margin-right: 2rem;
+    margin-left: 1rem;
 }
 .slidershape2text p{
-    width: 9.375rem;
-    font-size: 0.75rem;
-    line-height: 1.25rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
     color: #768396;
-    font-weight: 900;
-    margin: -0.625rem -0.938rem;
-    letter-spacing: 0;
-    text-transform: capitalize;
+    font-weight: 300;
 }
 .slidershape2text p strong{
     color: #0F0F0F;
-    font-size: 0.938rem;
+    font-size: 1.2rem;
     line-height: 2rem;
 }
 .sponsorships{
@@ -477,20 +486,25 @@ nav a{
     height: 100%;
     border-radius: 2rem;
 }
+.sliderdetails{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.6rem;
+}
 .slidertext{
     display: flex;
     flex-direction: column;
-    margin-top: 1.5rem;
-    margin-left: 1.5rem;
 }
 .slidertext h3{
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     font-weight: 500;
     letter-spacing: 0.03rem;
 }
 .slidertext h5{
     position: relative;
-    margin-top: 0.3rem;
+    margin-top: 0.5rem;
     margin-left: 1.5rem;
     font-weight: 300;
     font-size: 1rem;
@@ -510,23 +524,14 @@ nav a{
 }
 .carouselrating{
     display: flex;
-    flex-direction: row;
     background-color: #2A86FF;
     padding: 0.8rem 1.2rem;
     border-radius: 2rem;
-    align-items: center;
-    justify-content: center;
-    width: 5rem;
-    margin: -1.5rem 14rem;
-    position: relative;
-    bottom: 1.5rem;
-    left: 0.5rem;
 }
 .carouselrating img{
     width: 1rem;
     filter: invert(100%);
-    margin: 0 0.5rem;
-    margin-left: -0rem;
+    margin: auto 0.5rem;
 }
 .carouselrating h5{
     font-size: 1rem;
