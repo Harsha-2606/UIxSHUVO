@@ -51,14 +51,6 @@ nav a{
         padding: 1rem 1.5rem;
     }
 }
-@media (min-width: 2430px) {
-    header{
-        width: 110rem;
-    }
-    nav a{
-        padding: 3rem 3rem;
-    }
-}
 .upfold{
     margin: 0 auto;
     position: relative;
