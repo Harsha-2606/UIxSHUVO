@@ -11,7 +11,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 80rem;
+    width: 60rem;
     margin: 3rem auto;
 }
 header .logo img{
@@ -26,7 +26,7 @@ nav a{
     text-decoration: none;
     color: #101010;
     margin: 0 0.5rem;
-    padding: 1rem 1.5rem;
+    padding: 0.5rem 1rem;
     letter-spacing: 0.15rem;
 }
 .booktrip-btn{
@@ -43,6 +43,22 @@ nav a{
     letter-spacing: 0.05rem;
     font-size: 1rem;
 }
+@media (min-width: 1600px) {
+    header{
+        width: 80rem;
+    }
+    nav a{
+        padding: 1rem 1.5rem;
+    }
+}
+@media (min-width: 2430px) {
+    header{
+        width: 110rem;
+    }
+    nav a{
+        padding: 3rem 3rem;
+    }
+}
 .upfold{
     margin: 0 auto;
     position: relative;
@@ -51,8 +67,8 @@ nav a{
 .flight{
     position: absolute;
     top: 5vh;
-    right: -5vw;
-    width: 65vw;
+    right: -4.4vw;
+    width: 60vw;
     overflow: hidden;
     z-index: 1;
 }
@@ -91,8 +107,8 @@ nav a{
     flex-direction: column;
     align-items: center;
     position: absolute;
-    margin-top: -73vh;
-    margin-left: 10vh;
+    margin-top: -78.5vh;
+    margin-left: 9vh;
 }
 .carouselnavigation .circle{
     width: 3.5rem;
@@ -126,7 +142,7 @@ nav a{
 .slidercarouseltext{
     position: absolute;
     top: 22.8vh;
-    left: 13vw;
+    left: 12.5vw;
     height: 28vw;
 }
 .slidercarouseltext h4{
@@ -172,6 +188,27 @@ nav a{
     height: 1.188rem;
     width: 1.188rem;
 }
+@media (min-width: 1600px) {
+    .flight{
+    right: -4.6vw;
+    width: 65vw;
+    }
+    .carouselnavigation{
+    margin-top: -74vh;
+    margin-left: 9vh;
+    }
+    .carouselnavigation .circle{
+    height: 4rem;
+    width: 4rem;
+    }
+    .slidercarouseltext{
+    top: 22vh;
+    left: 11vw;
+    }
+    .carouselcontentbuttons{
+        margin-top: 2rem;
+    }
+}
 .slidershape2{
     display: flex;
     flex-direction: column;
@@ -193,7 +230,7 @@ nav a{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
-    filter: grayscale(100%) brightness(98%);
+    filter: grayscale(100%) brightness(95%);
     z-index: -1;
     height: 25vh;
 }
@@ -202,7 +239,7 @@ nav a{
     background: none;
     font-size: 1.5rem;
     position: absolute;
-    margin-top: 4vh;
+    margin-top: 2.5vh;
     margin-right: 2.5rem;
     width: 16.5vw;
     text-align: left;
@@ -215,43 +252,61 @@ nav a{
     background-repeat: no-repeat;
     width: 2vw;
     height: 2vh;
-    right: 0;
-    top: 0.5vh;
+    right: -1.6vw;
+    top: 1.6vh;
     z-index: 1;
 }
 .slidershape2imagetext{
     display: flex;
     width: 26.6vw;
-    margin-top: 12vh;
+    margin-top: 11.22vh;
 }
 .slidershape2image{
     display: flex;
     margin-right: 1vw;
 }
 .slidershape2image img{
-    width: 6rem;
-    height: 6rem;
+    width: 4.5rem;
+    height: 4.5rem;
     border: 0.3rem solid #F9F9FB;
     border-radius: 3rem;
     margin-left: -1rem;
     z-index: 1;
     position: relative;
 }
-.slidershape2text{
-    margin-top: 0.5rem;
-    margin-right: 2rem;
-    margin-left: 1rem;
-}
 .slidershape2text p{
-    font-size: 1rem;
+    font-size: 0.85rem;
     line-height: 1.2rem;
     color: #768396;
     font-weight: 300;
 }
 .slidershape2text p strong{
     color: #0F0F0F;
-    font-size: 1.2rem;
+    font-size: 1.05rem;
     line-height: 2rem;
+}
+@media (min-width: 1600px) {
+    .slidershape2 button{
+        margin-top: 4.2vh;
+        margin-right: 3.2rem;
+    }
+    .slidershape2 button::after{
+        right: 1vw;
+        top: 1vh;
+    }
+    .slidershape2imagetext{
+        margin-top: 13vh;
+    }
+    .slidershape2image img{
+        width: 5rem;
+        height: 5rem;
+    }
+    .slidershape2text p{
+        font-size: 1.2rem;
+    }
+    .slidershape2text p strong{
+        font-size: 1.2rem;
+    }
 }
 .sponsorships{
     width: 80vw;
@@ -265,7 +320,7 @@ nav a{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 8vh;
+    height: 12vh;
     border: 1px solid lightgray;
     border-radius: 5rem;
 }
@@ -319,6 +374,14 @@ nav a{
 .socialmediaicons a:nth-child(4):hover{
     background: rgb(62, 44, 0);
 }
+@media (min-width: 1600px) {
+    .sponsorships{
+        margin-top: 8vh;
+    }
+    .socialmedia{
+        height: 8vh;
+    }
+}
 .sponsors{
     display: flex;
     flex-direction: row;
@@ -336,7 +399,12 @@ nav a{
     filter: grayscale(0%);
 }
 .sponsors a img{
-    width: 10rem;
+    width: 8rem;
+}
+@media (min-width: 1600px) {
+    .sponsors a img{
+        width: 10rem;
+    }
 }
 .row{
     width: 80vw;
@@ -457,12 +525,12 @@ nav a{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 8vw;
+    width: 10vw;
     justify-content: space-between;
 }
 .section3carousel button{
-    width: 4rem;
-    height: 4rem;
+    width: 3.5rem;
+    height: 3.5rem;
     border-radius: 5rem;
     border: none;
 }
@@ -476,10 +544,19 @@ nav a{
 .section3carousel button:hover img{
     filter: invert(100%);
 }
+@media (min-width: 1600px) {
+    .section3carousel{
+        width: 8vw;
+    }
+    .section3carousel button{
+        height: 4rem;
+        width: 4rem;
+    }
+}
 .item{
     display: flex;
     flex-direction: column;
-    margin: 0.5rem 0.625rem;
+    margin: 0.5rem .50rem;
     background: #fff;
 }
 .item img {
@@ -492,14 +569,14 @@ nav a{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 1.6rem;
+    margin: 1rem;
 }
 .slidertext{
     display: flex;
     flex-direction: column;
 }
 .slidertext h3{
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     font-weight: 500;
     letter-spacing: 0.03rem;
 }
@@ -539,6 +616,17 @@ nav a{
     font-size: 1rem;
     color: #ffffff;
     font-weight: 500;
+}
+@media (min-width: 1600px) {
+    .item{
+        margin: 0.5rem .90rem;
+    }
+    .slidertext{
+        margin: 1vh 1vw;
+    }
+    .slidertext h3{
+        font-size: 1.7rem;
+    }
 }
 .hoverfx{
     position: relative;
@@ -607,20 +695,25 @@ nav a{
     font-weight: 200;
     color: #768396;
     line-height: 1.8rem;
-    margin: 0 20vw;
+    margin: 0 12vw;
+}
+@media (min-width: 1600px) {
+    .section4header p{
+        margin: 0 20vw;
+    }
 }
 .section4 ul{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     margin-top: 5vh;
-    height: 55vh;
+    height: 73vh;
 }
 .section4 ul li{
     background-color: #f9f9fb;
     padding: 4vw;
     width: 33.3vw;
-    height: 30vh;
+    height: 39vh;
     border-radius: 3rem 3rem 3rem 3rem;
     position: relative;
     overflow: hidden;
@@ -680,7 +773,7 @@ nav a{
 }
 .section4 ul li.active, .section4 ul li:hover{
     background-color: #2A86FF;
-    height: 55vh;
+    height: 72vh;
 }
 .section4 ul li.active h3, .section4 ul li:hover h3{
     color: white;
@@ -715,6 +808,17 @@ nav a{
 .section4 ul li.active .infoboxicon img, .section4 ul li:hover .infoboxicon img{
     filter: brightness(0) saturate(100%) invert(83%) sepia(87%) saturate(49%) hue-rotate(83deg) brightness(116%) contrast(94%);
 }
+@media (min-width: 1600px) {
+    .section4 ul{
+        height: 51vh;
+    }
+    .section4 ul li{
+        height: 30vh;
+    }
+    .section4 ul li.active, .section4 ul li:hover{
+        height: 51vh;
+    }
+}
 .section5{
     width: 80vw;
     margin: 10vh auto;
@@ -745,7 +849,7 @@ nav a{
     margin: 0.5vh 0;
 }
 .section5-a ul li h1{
-    font-size: 6rem;
+    font-size: 4rem;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
 }
@@ -757,6 +861,20 @@ nav a{
 .section5-a ul li:nth-child(3) p{
     margin-left: 0;
     margin-right: 1vw;
+    font-size: 1rem;
+    width: 24vw;
+}
+@media (min-width: 1600px) {
+    .section5-a ul li h1{
+        font-size: 6rem;
+    }
+    .section5-a ul li p{
+        font-size: 1.3rem;
+    }
+    .section5-a ul li:nth-child(3) p{
+        font-size: 1.3rem;
+        width: 22vw;
+    }
 }
 .section5-b{
     display: flex;
@@ -768,23 +886,23 @@ nav a{
     align-items: center;
     flex-direction: row;
     width: 25vw;
-    height: 14vh;
+    height: 16vh;
     background-color: #F9F9FB;
     border-radius: 2rem;
 }
 .section5-b .offer h2{
-    font-size: 2.7rem;
+    font-size: 2.4rem;
     font-weight: 500;
     color: #2A86FF;
 }
 .section5-b .offer p{
-    width: 10vw;
+    width: 11vw;
     margin-left: 1vw;
     color: #768396;
 }
 .section5-b button{
     position: relative;
-    width: 55vw;
+    width: 57vw;
     border-radius: 2rem;
     border: none;
     background-image: url(images/sky.jpg);
@@ -806,6 +924,21 @@ nav a{
     height: 1.6rem;
     margin-left: 1rem;
     margin-top: 0.6rem;
+}
+@media (min-width: 1600px) {
+    .section5-b .offer{
+        height: 14vh;
+    }
+    .section5-b .offer h2{
+        font-size: 2.7rem;
+    }
+    .section5-b .offer p{
+        width: 10vw;
+        font-size: 1.3rem;
+    }
+    .section5-b button{
+        width: 55vw;
+    }
 }
 .section6{
     width: 80vw;
@@ -835,9 +968,11 @@ nav a{
 .section6moredetails{
     display: flex;
     flex-direction: column;
+    margin: 0 -5.5vw;
 }
 .section6moredetails h3{
-    font-size: 2rem;
+    font-size: 1.6rem;
+    width: 59vw;
     text-transform: capitalize;
     font-weight: normal;
 }
@@ -852,12 +987,30 @@ nav a{
 }
 .section6moredetails ul li:first-child{
     margin-left: 0;
+    margin-right: 1vw;
 }
 .section6moredetails ul li p{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    width: 26vw;
     font-weight: 200;
     color: #768396;
     line-height: 1.8rem;
+}
+@media (min-width: 1600px) {
+    .section6moredetails{
+        margin: 0;
+    }
+    .section6moredetails h3{
+        font-size: 2rem;
+        width: 55vw;
+        letter-spacing: 0.05rem;
+    }
+    .section6moredetails ul li:first-child{
+        margin-right: 0;
+    }
+    .section6moredetails ul li p{
+        font-size: 1.2rem;
+    }
 }
 .section6-b-details{
     display: flex;
@@ -872,18 +1025,30 @@ nav a{
     align-items: center;
     flex-direction: column;
     background-color: #F9F9FB;
-    height: 28rem;
-    width: 28rem;
+    height: 24rem;
+    width: 20rem;
     border-radius: 7rem;
 }
 .section6-b-details li h1{
-    font-size: 9rem;
+    font-size: 8rem;
     font-weight: normal;
     color: #2A86FF;
 }
 .section6-b-details li h3{
-    font-size: 1.9rem;
+    font-size: 1.7rem;
     font-weight: 300;
+}
+@media (min-width: 1600px) {
+    .section6-b-details li{
+        height: 28rem;
+        width: 28rem;
+    }
+    .section6-b-details li h1{
+        font-size: 9rem;
+    }
+    .section6-b-details li h3{
+        font-size: 1.9rem;
+    }
 }
 .section7{
     display: flex;
@@ -906,7 +1071,12 @@ nav a{
     color: #768396;
     line-height: 1.8rem;
     letter-spacing: 0;
-    margin: 0 20vw;
+    margin: 0 13vw;
+}
+@media (min-width: 1600px) {
+    .section7header{
+        margin: 0 8vw;
+    }
 }
 .section7 ul{
     display: flex;
@@ -938,7 +1108,7 @@ nav a{
 }
 .section7 ul li h2{
     font-size: 1.7rem;
-    margin: 2rem 7rem 2rem;
+    margin: 2rem 5rem 2rem;
     font-weight: 600;
 }
 .section7 ul li p{
@@ -951,6 +1121,14 @@ nav a{
 }
 .section7 ul li:last-child{
     margin-right: 0;
+}
+@media (min-width: 1600px) {
+    .section7 ul li h2{
+        margin: 2rem 7rem 2rem;
+    }
+    .section7 ul li p{
+        width: auto;
+    }
 }
 .section8{
     width: 80vw;
@@ -1003,7 +1181,7 @@ nav a{
 }
 .section8 .review p{
     text-transform: capitalize;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 200;
     color: #768396;
     line-height: 1.8rem;
@@ -1013,7 +1191,7 @@ nav a{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 4vh 0 4vh -5vw;
+    margin: 4vh 0 4vh -4vw;
 }
 .customerprofile img{
     width: 5rem;
