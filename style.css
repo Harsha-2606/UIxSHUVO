@@ -43,7 +43,7 @@ nav a{
     letter-spacing: 0.05rem;
     font-size: 1rem;
 }
-@media (min-width: 1600px) {
+@media (min-width: 1367px) and (max-width: 1920px) and (min-height: 768px) and (max-height: 1080px) {
     header{
         width: 80rem;
     }
@@ -180,7 +180,7 @@ nav a{
     height: 1.188rem;
     width: 1.188rem;
 }
-@media (min-width: 1600px) {
+@media (min-width: 1367px) and (max-width: 1920px) and (min-height: 768px) and (max-height: 1080px) {
     .flight{
     right: -4.6vw;
     width: 65vw;
@@ -277,7 +277,7 @@ nav a{
     font-size: 1.05rem;
     line-height: 2rem;
 }
-@media (min-width: 1600px) {
+@media (min-width: 1367px) and (max-width: 1920px) and (min-height: 768px) and (max-height: 1080px) {
     .slidershape2 button{
         margin-top: 4.2vh;
         margin-right: 3.2rem;
@@ -366,7 +366,7 @@ nav a{
 .socialmediaicons a:nth-child(4):hover{
     background: rgb(62, 44, 0);
 }
-@media (min-width: 1600px) {
+@media (min-width: 1367px) and (max-width: 1920px) and (min-height: 768px) and (max-height: 1080px) {
     .sponsorships{
         margin-top: 8vh;
     }
@@ -393,7 +393,7 @@ nav a{
 .sponsors a img{
     width: 8rem;
 }
-@media (min-width: 1600px) {
+@media (min-width: 1367px) and (max-width: 1920px) and (min-height: 768px) and (max-height: 1080px) {
     .sponsors a img{
         width: 10rem;
     }
@@ -536,7 +536,7 @@ nav a{
 .section3carousel button:hover img{
     filter: invert(100%);
 }
-@media (min-width: 1600px) {
+@media (min-width: 1367px) and (max-width: 1920px) and (min-height: 768px) and (max-height: 1080px) {
     .section3carousel{
         width: 8vw;
     }
@@ -609,7 +609,7 @@ nav a{
     color: #ffffff;
     font-weight: 500;
 }
-@media (min-width: 1600px) {
+@media (min-width: 1367px) and (max-width: 1920px) and (min-height: 768px) and (max-height: 1080px) {
     .item{
         margin: 0.5rem .90rem;
     }
@@ -689,7 +689,7 @@ nav a{
     line-height: 1.8rem;
     margin: 0 12vw;
 }
-@media (min-width: 1600px) {
+@media (min-width: 1367px) and (max-width: 1920px) and (min-height: 768px) and (max-height: 1080px) {
     .section4header p{
         margin: 0 20vw;
     }
@@ -800,7 +800,7 @@ nav a{
 .section4 ul li.active .infoboxicon img, .section4 ul li:hover .infoboxicon img{
     filter: brightness(0) saturate(100%) invert(83%) sepia(87%) saturate(49%) hue-rotate(83deg) brightness(116%) contrast(94%);
 }
-@media (min-width: 1600px) {
+@media (min-width: 1367px) and (max-width: 1920px) and (min-height: 768px) and (max-height: 1080px) {
     .section4 ul{
         height: 51vh;
     }
@@ -856,7 +856,7 @@ nav a{
     font-size: 1rem;
     width: 24vw;
 }
-@media (min-width: 1600px) {
+@media (min-width: 1367px) and (max-width: 1920px) and (min-height: 768px) and (max-height: 1080px) {
     .section5-a ul li h1{
         font-size: 6rem;
     }
@@ -917,7 +917,7 @@ nav a{
     margin-left: 1rem;
     margin-top: 0.6rem;
 }
-@media (min-width: 1600px) {
+@media (min-width: 1367px) and (max-width: 1920px) and (min-height: 768px) and (max-height: 1080px) {
     .section5-b .offer{
         height: 14vh;
     }
@@ -988,7 +988,7 @@ nav a{
     color: #768396;
     line-height: 1.8rem;
 }
-@media (min-width: 1600px) {
+@media (min-width: 1367px) and (max-width: 1920px) and (min-height: 768px) and (max-height: 1080px) {
     .section6moredetails{
         margin: 0;
     }
@@ -1030,7 +1030,7 @@ nav a{
     font-size: 1.7rem;
     font-weight: 300;
 }
-@media (min-width: 1600px) {
+@media (min-width: 1367px) and (max-width: 1920px) and (min-height: 768px) and (max-height: 1080px) {
     .section6-b-details li{
         height: 28rem;
         width: 28rem;
@@ -1065,7 +1065,7 @@ nav a{
     letter-spacing: 0;
     margin: 0 13vw;
 }
-@media (min-width: 1600px) {
+@media (min-width: 1367px) and (max-width: 1920px) and (min-height: 768px) and (max-height: 1080px) {
     .section7header{
         margin: 0 8vw;
     }
@@ -1114,7 +1114,7 @@ nav a{
 .section7 ul li:last-child{
     margin-right: 0;
 }
-@media (min-width: 1600px) {
+@media (min-width: 1367px) and (max-width: 1920px) and (min-height: 768px) and (max-height: 1080px) {
     .section7 ul li h2{
         margin: 2rem 7rem 2rem;
     }
